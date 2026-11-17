@@ -1,0 +1,13 @@
+mirror-quilt-framework/
+├── .github/
+│   └── workflows/
+│       └── certify.yml          # Automated CI/CD script verification on push
+├── assets/
+│   ├── Mirror_Quilt_and_Twist.png # Figure 1 (2D Quilt & Möbius strip)
+│   └── Mirror_Quilt_3D.png      # Figure 2 (3D Quilt & Handedness Triads)
+├── docs/
+│   └── Whitepaper_v3.0.md       # Full formal whitepaper text
+├── src/
+│   └── certify_mirror_quilt_v3.py # Core certification script with SHA-256 seal
+├── README.md                    # Main landing page & presentation overview
+└── LICENSE                      # Open-source licensing / Self-certifying metadata
