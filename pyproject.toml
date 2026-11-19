@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mirror-quilt"
+version = "3.0.0"
+description = "Finite Z^3 lattice and parity certification reference implementation"
+readme = "RULESET.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["src"]
